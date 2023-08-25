@@ -1,5 +1,6 @@
 // import  express  from "express";
-const express = require("express");
+// const express = require("express");
+const express  = require("express")
 // import cors from "cors"
 const cors = require("cors");
 // import connectionDatabase from "./db/connectionDatabase.js";
