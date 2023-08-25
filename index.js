@@ -1,8 +1,15 @@
-import  express  from "express";
-import cors from "cors"
-import connectionDatabase from "./db/connectionDatabase.js";
-import formModel from "./db/formSchema.js";
-import dotenv from "dotenv"
+// import  express  from "express";
+const express = require("express");
+// import cors from "cors"
+const cors = require("cors");
+// import connectionDatabase from "./db/connectionDatabase.js";
+const connectionDatabase = require("./db/connectionDatabase.js");
+
+// import formModel from "./db/formSchema.js";
+const formModel = require("./db/formSchema.js");
+
+// import dotenv from "dotenv"
+const dotenv = require("dotenv");
 
 
 
