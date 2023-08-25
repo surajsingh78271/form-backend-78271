@@ -8,8 +8,6 @@ const connectionDatabase = async (DataBase_URL)=>{
             useUnifiedTopology: true,
     }).then(()=>{
         console.log("database connected")
-    }).catch((error)=>{
-        console.log(error)
     })
 }
 
