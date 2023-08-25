@@ -9,6 +9,9 @@ const connectionDatabase = async (DataBase_URL)=>{
     }).then(()=>{
         console.log("database connected")
     })
+    // .catch((error)=>{
+    //     console.log(error)
+    // })
 }
 
 // export default connectionDatabase
