@@ -1,4 +1,5 @@
-import mongoose from "mongoose"
+// import mongoose from "mongoose"
+const mongoose = require("mongoose");
 
 const connectionDatabase = async (DataBase_URL)=>{
     return await mongoose.connect(DataBase_URL,{
@@ -10,4 +11,5 @@ const connectionDatabase = async (DataBase_URL)=>{
     })
 }
 
-export default connectionDatabase
+// export default connectionDatabase
+module.exports = connectionDatabase
